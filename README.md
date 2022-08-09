@@ -120,13 +120,13 @@ no parameters
 Response
 
 ```bash
-Array: [
+Array: [{
     customerId: 'some customer id';
     totalPoints: 'total customer`s points';
     lastMonth: 'customer`s point in last month';
     secondMonth: 'customer`s point in month ago';
     thirdMonth: 'customer`s point in 2 month ago';
-]
+}]
 ```
 
 ### GET /api/v1/health
